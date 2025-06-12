@@ -3023,18 +3023,12 @@
     },
     {
         "label": "Diffuse Field 5128 (-1 dB/oct)",
-        "compatible": [
-            {
-                "source": "crinacle",
-                "form": "in-ear",
-                "rig": "Bruel & Kjaer 4620"
-            }
-        ],
         "bassBoost": {
             "fc": 105,
             "q": 0.7,
             "gain": 0
         },
+        "compatible": [],
         "recommended": [],
         "fr": {
             "frequency": [
@@ -8842,11 +8836,13 @@
             },
             {
                 "source": "Rtings",
-                "form": "in-ear"
+                "form": "in-ear",
+                "rig": "HMS II.3"
             },
             {
                 "source": "Rtings",
-                "form": "earbud"
+                "form": "earbud",
+                "rig": "HMS II.3"
             }
         ],
         "recommended": [
@@ -8868,11 +8864,13 @@
             },
             {
                 "source": "Rtings",
-                "form": "in-ear"
+                "form": "in-ear",
+                "rig": "HMS II.3"
             },
             {
                 "source": "Rtings",
-                "form": "earbud"
+                "form": "earbud",
+                "rig": "HMS II.3"
             }
         ],
         "bassBoost": {
@@ -11693,11 +11691,13 @@
             },
             {
                 "source": "Rtings",
-                "form": "in-ear"
+                "form": "in-ear",
+                "rig": "HMS II.3"
             },
             {
                 "source": "Rtings",
-                "form": "earbud"
+                "form": "earbud",
+                "rig": "HMS II.3"
             }
         ],
         "bassBoost": {
@@ -14510,7 +14510,8 @@
             },
             {
                 "source": "Rtings",
-                "form": "over-ear"
+                "form": "over-ear",
+                "rig": "HMS II.3"
             }
         ],
         "recommended": [
@@ -14524,7 +14525,8 @@
             },
             {
                 "source": "Rtings",
-                "form": "over-ear"
+                "form": "over-ear",
+                "rig": "HMS II.3"
             }
         ],
         "bassBoost": {
@@ -17335,6 +17337,11 @@
                 "source": "HypetheSonics",
                 "form": "in-ear",
                 "rig": "Bruel & Kjaer 5128"
+            },
+            {
+                "source": "Rtings",
+                "form": "in-ear",
+                "rig": "Bruel & Kjaer 5128"
             }
         ],
         "recommended": [
@@ -17345,6 +17352,11 @@
             },
             {
                 "source": "HypetheSonics",
+                "form": "in-ear",
+                "rig": "Bruel & Kjaer 5128"
+            },
+            {
+                "source": "Rtings",
                 "form": "in-ear",
                 "rig": "Bruel & Kjaer 5128"
             }
@@ -18332,6 +18344,16 @@
             {
                 "source": "HypetheSonics",
                 "form": "earbud"
+            },
+            {
+                "source": "Rtings",
+                "form": "over-ear",
+                "rig": "Bruel & Kjaer 5128"
+            },
+            {
+                "source": "Rtings",
+                "form": "earbud",
+                "rig": "Bruel & Kjaer 5128"
             }
         ],
         "recommended": [
@@ -18342,6 +18364,16 @@
             {
                 "source": "HypetheSonics",
                 "form": "earbud"
+            },
+            {
+                "source": "Rtings",
+                "form": "over-ear",
+                "rig": "Bruel & Kjaer 5128"
+            },
+            {
+                "source": "Rtings",
+                "form": "earbud",
+                "rig": "Bruel & Kjaer 5128"
             }
         ],
         "bassBoost": {
