@@ -3,7 +3,7 @@ import {decodeFloat16, initConvolutionNode, initParametricEqNodes, transposeArra
 
 class ApiClient {
   static async fetchMeasurements() {
-    const data = await fetch('/entries').then(res => res.json());
+    const data = await fetch('/api/entries').then(res => res.json());
     const measurements = [];
     for (const [headphone, items] of Object.entries(data)) {
       for (const item of items) {
@@ -14,7 +14,7 @@ class ApiClient {
   }
 
   static async fetchTargets() {
-    const targets = await fetch('/targets').then(res => res.json()).catch(err => {
+    const targets = await fetch('/api/targets').then(res => res.json()).catch(err => {
       throw err;
     });
     const preferredTargets = { 'unknown': { 'unknown': { 'unknown': 'Flat' } } };
@@ -135,7 +135,7 @@ class ApiClient {
       body.fixed_band_eq_config = params.equalizer.config;
     }
 
-    const apiRes = await fetch('/equalize', {
+    const apiRes = await fetch('/api/equalize', {
       method: 'POST',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify(body)
