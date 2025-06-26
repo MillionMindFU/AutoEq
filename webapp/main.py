@@ -24,13 +24,13 @@ ROOT_DIR = Path().resolve()
 
 app = FastAPI()
 
-with open(ROOT_DIR.joinpath('data/entries.json')) as fh:
+with open(ROOT_DIR.joinpath('data/entries.json'),encoding='utf-8') as fh:
     entries = json.load(fh)
 
 with open(ROOT_DIR.joinpath('data/measurements.json')) as fh:
     measurements = json.load(fh)
 
-with open(ROOT_DIR.joinpath('data/targets.json')) as fh:
+with open(ROOT_DIR.joinpath('data/targets.json'),encoding='utf-8') as fh:
     targets = json.load(fh)
 
 
