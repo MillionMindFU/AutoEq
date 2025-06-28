@@ -41,7 +41,7 @@ def get_entries():
 
 @app.get('/targets')
 def get_targets():
-    return [{key: target[key] for key in ['label', 'compatible', 'recommended', 'bassBoost']} for target in targets]
+    return [{key: target[key] for key in ['label', 'compatible', 'recommended', 'bassBoost','fr']} for target in targets]
 
 
 @app.get('/playlist')
