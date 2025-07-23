@@ -48,7 +48,7 @@ class ApiClient {
 
     let soundSignature = transposeArrayToObject(params.soundSignature, ['frequency', 'raw']);
 
-    const base64fp16 = true;
+    const base64fp16 = false;
     const body = {
       target: params.target,
       sound_signature: soundSignature,
